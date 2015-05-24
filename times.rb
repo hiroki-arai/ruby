@@ -21,3 +21,12 @@ str.times do
 end
 
 =end
+
+# 文字列を数値に変換してやってみる
+
+str = "5"
+str.to_i.times do
+  puts "to_i"
+end
+
+# => 成功
